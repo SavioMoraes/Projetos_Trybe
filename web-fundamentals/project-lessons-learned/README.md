@@ -2,9 +2,19 @@
 
 ## PROJETO DESENVOLVIDO DURANTE O CURSO DA TRYBE!!
 
+## Habilidades
+
+Neste projeto, você será capaz de:
+
+* Utiizar _HTML_ para construir páginas WEB.
+* Utilizar _HTML_ semântico para tornar sua página mais acessível e melhor ranqueada.
+* Utilizar _CSS_ para adicionar estilo e posicionar elementos.
+
 ## Proposta: 
 
 Desenvolver um site com elementos posicionados e estilizados, com semântica apropriada para que seja acessível e melhor rankeado!
+
+# Requisitos:
 
 1. Adicione uma cor de fundo específica para a página
 Possuir cor de fundo: rgb(253, 251, 251)
