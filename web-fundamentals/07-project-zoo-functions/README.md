@@ -20,7 +20,8 @@ Na pasta raíz do projeto, temos a pasta `src` e a pasta `tests`. A pasta `src` 
 1. Instale as dependências
   * `npm install`
 2. Rode os testes
-  * `npm test` ou `npm test test/getSpeciesById`
+  * `npm test` para rodar todos os testes ou 
+  * `npm test test/getSpeciesById`, para rodar testes individuais, colocar o arquivo de teste após a `/`.
 
 ## Requisitos do projeto
 
