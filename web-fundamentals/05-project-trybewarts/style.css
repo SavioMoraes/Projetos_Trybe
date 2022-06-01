@@ -115,3 +115,9 @@ h2 {
   padding-top: 8px;
   color: whitesmoke;
 }
+
+#filled-form {
+  width: 675px;
+  display: none;
+  flex-direction: column;
+}

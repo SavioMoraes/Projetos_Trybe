@@ -29,8 +29,8 @@
       <button type="click" id="btn-login">Logar</button>
     </form>
   </header>
-  <main>
-    <form action="" id="evaluation-form">
+  <main class="main">
+    <form action="GET" id="evaluation-form">
 
       <h2>Forms</h2>
 
@@ -64,24 +64,27 @@
       <div class="container-form-check">
 
         <div>
-          <label id="label-family">Qual sua família?</label>
           <div class="form-check">
+            <label id="label-family">Qual sua família?</label>
             <label class="form-check-label" for="radios1">
-              Família Frontend
+              <input class="form-check-input subject" type="radio" name="family" id="radios1" value="Frontend">
+                Família Frontend
+              </input>
             </label>
-            <input class="form-check-input" type="radio" name="family" id="radios1" value="Frontend" checked>
           </div>
           <div class="form-check">
             <label class="form-check-label" for="radios2">
-              Família Backend
+              <input class="form-check-input subject" type="radio" name="family" id="radios2" value="Backend">
+                Família Backend
+              </input>
             </label>
-            <input class="form-check-input" type="radio" name="family" id="radios2" value="Backend">
           </div>
           <div class="form-check">
             <label class="form-check-label" for="radios3">
-              Família FullStack
+              <input class="form-check-input subject" type="radio" name="family" id="radios3" value="FullStack">
+                Família FullStack
+            </input>
             </label>
-            <input class="form-check-input" type="radio" name="family" id="radios3" value="FullStack">
           </div>
         </div>
 
@@ -89,31 +92,49 @@
           <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
           <div>
             <div class="form-check form-check-inline">
-              <label class="form-check-label" for="inlineCheckbox1">HoFs</label>
-              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="HoFs">
+              <label class="form-check-label" for="inlineCheckbox1">
+                <input class="form-check-input subject check-i-will-learn" type="checkbox" id="inlineCheckbox1" value="HoFs">
+                  HoFs
+                </input>
+              </label>
             </div>
             <div class="form-check form-check-inline">
-              <label class="form-check-label" for="inlineCheckbox2">Jest</label>
-              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="Jest">
+              <label class="form-check-label" for="inlineCheckbox2">
+                <input class="form-check-input subject check-i-will-learn" type="checkbox" id="inlineCheckbox2" value="Jest">
+                  Jest
+              </input> 
+              </label>
             </div>
             <div class="form-check form-check-inline">
-              <label class="form-check-label" for="inlineCheckbox3">Promises</label>
-              <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="Promises">
+              <label class="form-check-label" for="inlineCheckbox3">
+                <input class="form-check-input subject check-i-will-learn" type="checkbox" id="inlineCheckbox3" value="Promises">
+                  Promises
+                </input>  
+              </label>
             </div>
           </div>
 
           <div>
             <div class="form-check form-check-inline">
-              <label class="form-check-label" for="inlineCheckbox4">React</label>
-              <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="React">
+              <label class="form-check-label" for="inlineCheckbox4">
+                <input class="form-check-input subject check-i-will-learn" type="checkbox" id="inlineCheckbox4" value="React">
+                  React
+              </input>
+              </label>
             </div>
             <div class="form-check form-check-inline">
-              <label class="form-check-label" for="inlineCheckbox5">SQL</label>
-              <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="SQL">
+              <label class="form-check-label" for="inlineCheckbox5">
+                <input class="form-check-input subject check-i-will-learn" type="checkbox" id="inlineCheckbox5" value="SQL">
+                  SQL
+              </input>
+              </label>
             </div>
             <div class="form-check form-check-inline">
-              <label class="form-check-label" for="inlineCheckbox6">Python</label>
-              <input class="form-check-input" type="checkbox" id="inlineCheckbox6" value="Python">
+              <label class="form-check-label" for="inlineCheckbox6">
+                <input class="form-check-input subject check-i-will-learn" type="checkbox" id="inlineCheckbox6" value="Python">
+                  Python
+                </input>
+              </label>
             </div>
           </div>
         </div>
@@ -187,8 +208,18 @@
 
       <button type="submit" id="submit-btn" disabled>Enviar</button>
 
+      <section id="filled-form">
+        <div>Nome: <span id="filled-name"></span></div>
+        <div>Email: <span id="filled-email"></span></div>
+        <div>Casa: <span id="filled-house"></span></div>
+        <div>Família: <span id="filled-family"></span></div>
+        <div>Matérias: <span id="filled-content"></span></div> 
+        <div>Avaliação: <span id="filled-rate"></span></div>
+        <div>Observações: <span id="filled-coment"></span></div>
+      </section>
     </form>
-
+    
+    
     <img src="images/trybewarts-colored.svg" id="trybewarts-forms-logo" alt="">
   </main>
 
