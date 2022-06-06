@@ -1,8 +1,9 @@
-# Project Movie Card Library CRUD 🚀
+# Project Movie Card Library Stateful 🚀
 
 ## PROJETO DESENVOLVIDO DURANTE O CURSO DA TRYBE!!
 
-# Rodar `npm install` para adicionar dependencias e `npm start` para iniciar o navegador.
+# Para rodar o projeto:
+ `npm install` para adicionar dependencias e `npm start` para iniciar o navegador.
 
 # Habilidades
 
