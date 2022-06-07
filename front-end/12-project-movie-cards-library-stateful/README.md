@@ -2,13 +2,6 @@
 
 ## PROJETO DESENVOLVIDO DURANTE O CURSO DA TRYBE!!
 
-# Projeto em grupo desenvolvido em conjunto com:
-
-  Thyago Pessoa
-  Túlio Sploradori
-  Vitor Santiago
-  Wendell Costa
-
 # Para rodar o projeto:
  `npm install` para adicionar dependencias e `npm start` para iniciar o navegador.
 
