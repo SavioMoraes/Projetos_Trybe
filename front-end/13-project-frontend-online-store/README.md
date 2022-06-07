@@ -1,9 +1,16 @@
-# Project Movie Card Library Stateful 🚀
+# Project Frontend Online Store 🚀
 
 ## PROJETO DESENVOLVIDO DURANTE O CURSO DA TRYBE!!
 
 # Para rodar o projeto:
  `npm install` para adicionar dependencias e `npm start` para iniciar o navegador.
+
+ # Projeto em grupo desenvolvido em conjunto com:
+
+  Thyago Pessoa
+  Túlio Sploradori
+  Vitor Santiago
+  Wendell Costa
 
 # Habilidades
 
